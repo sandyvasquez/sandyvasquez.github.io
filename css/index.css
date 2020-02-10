@@ -307,6 +307,7 @@ body {
 
 .column { 
   padding: 30px;
+  /* white-space: nowrap; */
   text-align: center;
   position: relative;
   overflow:auto;
@@ -314,8 +315,7 @@ body {
 }
 
 .texts {
-  /* overflow:hidden; */
-  margin: 30px;
+  width:90%;
   font-size: 18px;
   position: absolute;
   top: 120%;
@@ -326,11 +326,10 @@ body {
 }
 
 .texts-2 {
-  /* overflow:hidden; */
-  margin-top: 40px;
+  width:90%;
   font-size: 18px;
   position: absolute;
-  top: 130%;
+  top: 120%;
   left: 50%;
   text-align: justify;
   transform: translate(-50%, -50%);
