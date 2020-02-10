@@ -293,6 +293,49 @@ body {
     }
 }
 
+@media screen and (max-width: 500px) {
+  .column {
+    width: 50%;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.column { 
+  padding: 30px;
+  text-align: center;
+  position: relative;
+
+}
+
+.texts {
+  margin: -30px;
+  font-size: 18px;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  text-align: justify;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.texts-2 {
+  margin: -40px;
+  font-size: 18px;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  text-align: justify;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+
+}
+
+
 .affix {
     padding: 0;
     background-color: black;
@@ -637,7 +680,7 @@ color:black;
   .contact form input,
   .contact form textarea {
     width: 100%;
-    padding: 8px;
+    padding: 5px;
     border: solid 1px white;
     border-radius: 4px;
   }
