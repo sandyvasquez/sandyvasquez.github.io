@@ -309,11 +309,13 @@ body {
   padding: 30px;
   text-align: center;
   position: relative;
+  overflow:auto;
 
 }
 
 .texts {
-  margin: -30px;
+  /* overflow:hidden; */
+  /* margin: -30px; */
   font-size: 18px;
   position: absolute;
   top: 120%;
@@ -324,7 +326,8 @@ body {
 }
 
 .texts-2 {
-  margin: -40px;
+  /* overflow:hidden; */
+  /* margin: -40px; */
   font-size: 18px;
   position: absolute;
   top: 130%;
