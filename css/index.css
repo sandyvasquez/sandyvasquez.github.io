@@ -488,6 +488,12 @@ blockquote .name {
 
 }
 
+.ilp {
+  margin-top: -10px;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 19px;
+}
 .words  {
     padding: 20px;
     text-align: left; 
