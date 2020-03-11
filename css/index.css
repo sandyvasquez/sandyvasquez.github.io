@@ -95,13 +95,13 @@ body {
     transition: all 0.4s ease;
 }
 
-/* Media qurey section */
+/* Media qurey section
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .container {
         margin: 0;
     }
-}
+} */
 
 
 /* Animation */
@@ -415,12 +415,14 @@ h2 {
 }
 
 .container-t img {   
-   margin-right: 15px;
+   margin-right: 1%;
    margin-left: auto;
-   margin-bottom: 20px;
+   margin-bottom: 1%;
    /* margin-right: auto; */
-   width: 15%;
+   width: auto;
    height: auto;
+   max-width: 15%;
+   /* min-width: 25%; */
    align-items: center;
 }
 
@@ -517,7 +519,7 @@ blockquote .name {
 }
 
 html {
-    min-height: 100%;
+    min-height: auto;
     width: 100%;
   }
   
@@ -530,16 +532,16 @@ html {
  
   div#all {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   /* generic css */
 
-  .box {
+  /* .box {
     padding-top: 50px;
     width: 100%;
     height: 30vh;
-  }
+  } */
 
   .container{
       display: flex;
@@ -566,7 +568,7 @@ html {
   .view .mask,
   .view .content {
     width: 100%x;
-    height: 100%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0
@@ -611,7 +613,7 @@ html {
     /*1*/
     transition: all 0.2s linear;
     width: 450px;
-    height: 350px;
+    height: auto;
   }
   
    .view-first .mask {
@@ -762,6 +764,15 @@ color:black;
   
 }
 
+@media (min-width: 800px) {
+  .containter-t .img {
+    background-image: url(images/puppy.jpg);
+    background-image: url(images/frenchie.jpg);
+    background-image: url(images/german.png);
+
+
+  }
+}
 
   @media only screen and (min-width: 700px) {
     .wrapper-1 {
