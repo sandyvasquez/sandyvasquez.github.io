@@ -1,1 +1,1 @@
-A mockup of a New York Dog Walking Business U+1F43E
+A mock-up of a New York Dog Walking Business 🐾
